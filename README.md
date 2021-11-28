@@ -1,6 +1,6 @@
-# Piramide de letras
+# Piramides
 
-Es un ejercicio simple en el que se busca crear una piramide que se forma con letras. Lo cree completamente en POO.
+Es un ejercicio simple en el que se busca crear una piramide que se forma con letras, o asteriscos. Lo cree completamente en POO.
 
 ## Archivo main.py
 
