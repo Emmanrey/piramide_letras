@@ -24,6 +24,12 @@ class piram():
             for j in range(0, i+1):
                 print("*", end = " ")
             print("\r")
+
+    def asteriscos_invertido(self):
+        for i in range (0, self.pisos):
+            for j in range(self.pisos, i, -1):
+                print("*", end = " ")
+            print("\r")
     
     def tipo_letras(self):
         tipo = input("Mayusculas o Minusculas: ").lower()

@@ -26,6 +26,12 @@ Si self.num esta en el segundo for, se imprimen las letras seguidas.
 
 Simplemente es la misma logica que la funcion anterior pero el segundo ciclo tiene el rango cambiado para que resulte una piramide invertida.
 
+### Metodo _**asteriscos( )**_
+La idea es formar una piramide solo con asteriscos.
+
+### Metodo _**asteriscos_invertido( )**_
+Para crear la version invertida de la piramide creada con asteriscos.
+
 ### Metodo  _**tipo_letras( )**_
 Si mecesitamos las letras sean **mayusculas** tendremos que instanciar "self.num" en 65, por otro lado si quisieramos que fuese en **minusculas** deberia instanciar en 97. Este metodo nos da facilidad para hacer esto.
 
