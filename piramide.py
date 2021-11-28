@@ -19,6 +19,12 @@ class piram():
             self.num = self.num + 1
             print("\r")
     
+    def asteriscos(self):
+        for i in range (0, self.pisos):
+            for j in range(0, i+1):
+                print("*", end = " ")
+            print("\r")
+    
     def tipo_letras(self):
         tipo = input("Mayusculas o Minusculas: ").lower()
         dato = tipo.split('u')[0]
