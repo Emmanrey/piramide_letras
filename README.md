@@ -32,6 +32,14 @@ La idea es formar una piramide solo con asteriscos.
 ### Metodo _**asteriscos_invertido( )**_
 Para crear la version invertida de la piramide creada con asteriscos.
 
+### Metodo _**asteriscos_centrados( )**_
+Con este metodo se crea una piramide de asteriscos, que se imprime centrada. Lo bueno de este metodo es que el costo es menor por que solo se usa un unico bucle for. Solo hay que tener en cuenta 2 aspectos:
+
+- Para que este centrada, los espacios se multiplican por la formula: **rango-x-1**
+
+- Para que los asteriscos vayan incrementando conforme hay mas pisos se multiplica el asterisco por la formula: **2*x+1**
+
+
 ### Metodo  _**tipo_letras( )**_
 Si mecesitamos las letras sean **mayusculas** tendremos que instanciar "self.num" en 65, por otro lado si quisieramos que fuese en **minusculas** deberia instanciar en 97. Este metodo nos da facilidad para hacer esto.
 

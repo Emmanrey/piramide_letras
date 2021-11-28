@@ -36,7 +36,13 @@ class piram():
             for j in range(self.pisos, i, -1):
                 print("*", end = " ")
             print("\r")
-    
+
+    def asteriscos_centrados(self):
+        self.pisos = int(input("Pisos: "))
+        rango = self.pisos
+        for x in range(rango):
+            print(' '*(rango-x-1), '*'*(2*x+1))
+
     def tipo_letras(self):
         tipo = input("Mayusculas o Minusculas: ").lower()
         dato = tipo.split('u')[0]
