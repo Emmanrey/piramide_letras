@@ -1,9 +1,11 @@
 class piram():
     def __init__(self):
-        self.num = self.tipo_letras()
-        self.pisos = self.pisos_letras()
+        self.num = 1
+        self.pisos = 1
 
     def construir(self):
+        self.num = self.tipo_letras()
+        self.pisos = self.pisos_letras()
         for i in range (0, self.pisos):
             for j in range(0, i+1):
                 letra = chr(self.num)
@@ -12,6 +14,8 @@ class piram():
             print("\r")
 
     def inversa(self):
+        self.num = self.tipo_letras()
+        self.pisos = self.pisos_letras()
         for i in range (0, self.pisos):
             for j in range(self.pisos, i, -1):
                 letra = chr(self.num)
@@ -20,12 +24,14 @@ class piram():
             print("\r")
     
     def asteriscos(self):
+        self.pisos = int(input("Pisos: "))
         for i in range (0, self.pisos):
             for j in range(0, i+1):
                 print("*", end = " ")
             print("\r")
 
     def asteriscos_invertido(self):
+        self.pisos = int(input("Pisos: "))
         for i in range (0, self.pisos):
             for j in range(self.pisos, i, -1):
                 print("*", end = " ")
